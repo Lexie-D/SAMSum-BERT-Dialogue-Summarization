@@ -1,0 +1,43 @@
+# Ignore dataset files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.csv
+*.tsv
+*.json
+*.arrow
+dataset/
+datasets/
+samsum_dataset/
+samsum_dataset.zip
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pkl
+*.pytorch
+*.pt
+
+# Ignore Colab-specific files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+colab-output/
+colab-logs/
+
+# Ignore model checkpoints
+*.bin
+*.h5
+*.ckpt
+*.pb
+*.onnx
+
+# Ignore virtual environment folders
+.venv/
+env/
+venv/
+
+# Ignore large log or temp files
+*.log
+*.tmp
+*.temp
